@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sab{
+    background-color: rgb(231, 137, 22);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    
+}
+.btn_add{
+    width: fit-content;
+    margin-bottom: 20px;
+    background-color: green;
+    padding: 5px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: 0px;
+    border-radius: 6px;
+}
+table{
+    border-collapse: collapse ;
+    color: blue;
+}
+th{
+    font-size: 16px;
+   border-bottom: 3px solid rgb(21, 255, 0);
+    padding: 5px 20px;
+    font-weight: 500px;
+}
+td{
+    font-weight: 400;
+    padding: 5px 30px;
+    font-size: 14px;
+    text-align: center;
+}
+tr:nth-child(2n){
+    background-color: #f6f8f8;
+}
+tr:nth-child(2n) td{
+    border-bottom: 1px solid #c0c0c0;
+    border-top: 1px solid #c0c0c0;
+}
+.form{
+    background-color: #f6f8f8;
+    padding: 25px;
+    box-shadow: 0 0 10px black;
+    border-radius: 6px;
+}
+.form form{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+}
+.back_btn{
+    color: green;
+    text-decoration: 0;
+    display: flex;
+    align-items: center;
+}
+.back_btn svg{
+    height: 20px;
+    margin-right: 5px;
+}
+h2{
+    margin: 10px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.erreur_message{
+    color: red;
+}
+label{
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+input{
+    padding: 5px;
+    border: 1px solid #c0c0c0;
+    outline: 0;
+    margin-top: 2px;
+}
+input:focus{
+    border: 1px solid yellow;
+}
+input[type="submit"]{
+    margin-top: 25px;
+    background-color: green;
+    border: 1px solid green;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}
+.deco{
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+}
